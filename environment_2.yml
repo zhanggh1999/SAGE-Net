@@ -1,0 +1,25 @@
+name: SAGE-CartNet
+channels:
+  - pytorch
+  - pyg
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch=2.4.0
+  - pytorch-cuda=11.8
+  - pyg=2.6.1
+  - pytorch-scatter=2.1.2
+  - numpy=1.24.*
+  - scipy=1.13.*
+  - scikit-learn=1.5.*
+  - matplotlib=3.9.*
+  - tqdm
+  - wandb
+  - yacs
+  - pyyaml
+  - tabulate
+  - psutil
+  - jarvis-tools=2024.8.30

@@ -1,0 +1,33 @@
+*.DS_Store
+*.ckpt
+*.err
+*.log
+*.npy
+*.npz
+*.out
+*.pt
+*.pyc
+*.pkl
+*.pth
+*.tmp
+__pycache__/
+.ipynb_checkpoints/
+.matplotlib_*/
+.pytest_cache/
+results/*
+logs/
+wandb/
+training/
+dataset/ADP_DATASET/
+dataset/megnet/
+dataset/**/cartnet_cache/
+datasets/**/cartnet_cache/
+montecarlo/
+
+# Bundled lightweight reproduction data.
+!datasets/jarvis/mbj/dft_3d_mbj_bandgap_densegnn_split.npz
+!datasets/jarvis/mbj/text_embeddings.npy
+
+# Bundled MBJ fixed-split results.
+!results/mbj/
+!results/mbj/**
